@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel landing page</title>
+    <link rel="stylesheet" href="cofee.css">
+</head>
+<body>
+    <div id="hero">
+        <header>
+        <h2 class="logo">TRAVSARY</h2>
+        <div class="toggle" onclick="openSlideMenu() "> 
+        </div>
+    </header>
+        <video src="530026988.hd.mp4" muted loop autoplay></video>
+        <div class="text">
+            <h1>Travel the world</h1>
+            <h3>vist new places,meet new people</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Sit voluptates corporis debitis vitae illum
+                  necessitatibus eaque odit! Commodi, 
+                iure vitae.</p>
+                <a href="#">Explore</a>
+
+        </div>
+    </div>
+    <section>
+        <div id="abotu">
+            <h1>ABOUT US</h1>
+            <h3>We are the World best Travel Agencies</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Sit voluptates corporis debitis vitae illum
+                 necessitatibus eaque odit! Commodi, 
+               iure vitae.
+               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Est nam eum illo? Ab minus quaerat dolor laborum sed quod modi natus,
+                 commodi reiciendis voluptas dolorem, laboriosam id illo deserunt
+                  excepturi impedit error inventore
+                dolore expedita in enim non! Quae, delectus!
+            </p>
+        
+        </div>
+    </section>
+    <div id="card-section">
+        <ul>
+            <li> <div class="cards">
+                <img src="travel4.jpg" alt="">
+                <div class="card-content">
+                    <h2 class="card-title">Destination Mexico</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+                     Soluta exercitationem consectetur laudantium.<br>
+                      Quia aliquam rerum et.</p>
+                </div>
+            </div>
+            </li>
+            <li> <div class="cards">
+                <img src="travel2.jpg"">
+                <div class="card-content">
+                    <h2 class="card-title">Destionation Italy</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+                     Soluta exercitationem consectetur laudantium.<br>
+                      Quia aliquam rerum et.</p>
+                </div>
+            </div>
+            </li>
+            <li> <div class="cards">
+                <img src="travel3.jpg" alt="">
+                <div class="card-content">
+                    <h2 class="card-title">Destionation Rome</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+                     Soluta exercitationem consectetur laudantium.<br>
+                      Quia aliquam rerum et.</p>
+                </div>
+            </div>
+            </li>
+        </ul>
+    </div>
+    <div id="contact">
+        <h3>Keep in Touch with us:</h3>
+        <div class="contact-area">
+        <form action="">
+            <div class="form-content">
+            <input type="text"  id="name" required placeholder="name please">
+    
+        </div>
+        <div class="form-content">
+            <input type="text"  id="name" required placeholder="email address">
+           
+        </div>
+        <div class="form-content">
+            <input type="text"  id="name" required placeholder="lovely phone number">
+ 
+        </div>
+        <div class="form-content">
+            <textarea name="message" id="" required rows="8" placeholder="leave a message please"></textarea>
+        </div>
+        </form>
+        </div>
+        <button type="submit">Send</button>
+        <div class="socials">
+            <a href=""><img src="facebook.png" alt=""></a>
+           <a href=""> <img src="whatapp.png" alt=""></a>
+           <a href=""><img src="white_insta_logo.png" alt=""></a>
+    </div>
+    <div id="slide_open" class="side-nav">
+        <h1  class="btn-close" href="" onclick="closeSlideMenu() ">&times;</h1>
+        <a href="#hero">Home</a>
+        <a href="#abotu">About</a>
+        <a href="#card-section">Destination</a>
+        <a href="#contact">Contact</a>
+    </div>
+    <script>
+    function openSlideMenu(){
+    document.getElementById('slide_open').style.height='250px';
+   
+}
+    function closeSlideMenu(){
+    document.getElementById('slide_open').style.height='0';
+    
+}
+    </script>
+</body>
+</html>
